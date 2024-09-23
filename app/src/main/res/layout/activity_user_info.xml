@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInfo"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sojo Job Talent"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Job"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        />
+
+    <EditText
+        android:id="@+id/etcompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company's Name"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etjobRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Role"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etemailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+    <EditText
+        android:id="@+id/etduration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+</LinearLayout>
